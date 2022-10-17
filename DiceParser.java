@@ -237,12 +237,8 @@ public class DiceParser{
     // all methods must have a (possibly empty) parameter list.
     // The test method above has a single String param.
     // We are missing parens around the "args" String array param.
-<<<<<<< HEAD
-    public static void main (String[] args) {
-=======
     public static void main (String[] args)
 	 {
->>>>>>> b857df00988cb7a297e9ba3cdf42a41edb167e83
 	test("d6");
 	test("2d6");
 	test("d6+5");
@@ -253,7 +249,8 @@ public class DiceParser{
     test("4d6 + xyzzy");
 	test("hi");
 	test("4d4d4");
-	// this is my new comment 
+	// this is my new comment
+	// new comment 2 
     }
 
 }
