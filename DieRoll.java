@@ -23,7 +23,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 public class DieRoll {
     private int ndice;
-    private int nsides  // each statement in Java must end with a semi-colon
+    private int nsides;  // each statement in Java must end with a semi-colon
     private int bonus;
     private static Random rnd;
     static{
@@ -40,7 +40,11 @@ public class DieRoll {
 	RollResult r=new RollResult(bonus);
 	// the for loop has three parts in parens
 	// each separated by a semi-colon (not a colon)
-	for(int i=0:i<ndice:i++) {
+<<<<<<< HEAD
+	for(int i=0; i<ndice;i++) {
+=======
+	for(int i=0;i< ndice;i++) {
+>>>>>>> a16a2c5e8ffafa157579baaccbc51e3e84d66804
 	    int roll=rnd.nextInt(nsides)+1;
 	    r.addResult(roll);
 	}
