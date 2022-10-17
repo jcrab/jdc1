@@ -40,7 +40,11 @@ public class DieRoll {
 	RollResult r=new RollResult(bonus);
 	// the for loop has three parts in parens
 	// each separated by a semi-colon (not a colon)
+<<<<<<< HEAD
 	for(int i=0; i<ndice;i++) {
+=======
+	for(int i=0;i< ndice;i++) {
+>>>>>>> a16a2c5e8ffafa157579baaccbc51e3e84d66804
 	    int roll=rnd.nextInt(nsides)+1;
 	    r.addResult(roll);
 	}
