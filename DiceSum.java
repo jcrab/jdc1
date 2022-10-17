@@ -24,10 +24,12 @@ public class DiceSum extends DieRoll {
     private DieRoll r2; // a variable or field must have a data type and
     			// variable name (r2)
 			// missing a space between the type and name
+			//adding a new comment to make an example
     public DiceSum(DieRoll r1,
 		   DieRoll r2) {
 	super(0,0,0); // invoking the super class constructor is done
 			// using the "super" keyword, not superduper
+			//yesyesyesyes
 	this.r1=r1;
 	this.r2=r2;
     }
